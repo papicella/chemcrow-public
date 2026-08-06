@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.15.0rc1
 RUN pip install aizynthfinder[all] flask
 COPY files/ .
 COPY . .
