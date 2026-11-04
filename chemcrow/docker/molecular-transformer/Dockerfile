@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.15.2
 WORKDIR /app
 
 RUN pip install rdkit-pypi==2022.3.1
